@@ -151,8 +151,8 @@ function insertionSort(arr) {
         }
         
         // Place key in its correct position
-        result[j + 1] = key;
         console.log(`  Placed ${key} at index ${j + 1}`);
+        result[j + 1] = key;
         console.log(`  After insertion: [${result.join(',')}]`);
         console.log(`  Sorted: [${result.slice(0, i + 1).join(',')}] | Unsorted: [${result.slice(i + 1).join(',')}]`);
     }
